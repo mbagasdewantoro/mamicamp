@@ -1,0 +1,24 @@
+git:
+
+-add = ketika ada perubahan
+
+got add .
+git add --all
+
+-commit = message 
+
+git commit -m "ini perubahan"
+
+-pull = mengambil perubahan yg ada di repository
+
+git pull "origin" "branch"
+
+-push = mengirimkan perubahan dari lokal ke repository
+
+gitpush "origin" "branch"
+
+Generate ssh key:
+ssh-keygen -t rsa -C "your_email@example.com"
+
+
+
